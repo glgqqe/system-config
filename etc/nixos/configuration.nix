@@ -310,92 +310,7 @@
   	37.230.192.51 www.claude.com
   	45.155.204.190 www.claudemcpclient.com
   	37.230.192.51 www.claudemcpclient.com
-  	
-  	# GitHub Copilot
-  	
-  	
-  	# Google AI
-  	45.155.204.190 ai.google.dev
-  	37.230.192.51 ai.google.dev
-  	45.155.204.190 aisandbox-pa.googleapis.com
-  	37.230.192.51 aisandbox-pa.googleapis.com
-  	45.155.204.190 aistudio.google.com
-  	37.230.192.51 aistudio.google.com
-  	45.155.204.190 aitestkitchen.withgoogle.com
-  	37.230.192.51 aitestkitchen.withgoogle.com
-  	45.155.204.190 alkalicore-pa.clients6.google.com
-  	37.230.192.51 alkalicore-pa.clients6.google.com
-  	45.155.204.190 alkalimakersuite-pa.clients6.google.com
-  	37.230.192.51 alkalimakersuite-pa.clients6.google.com
-  	45.155.204.190 apis.google.com
-  	37.230.192.51 apis.google.com
-  	45.155.204.190 appcatalyst.pa.googleapis.com
-  	37.230.192.51 appcatalyst.pa.googleapis.com
-  	45.155.204.190 assistant-s3-pa.googleapis.com
-  	37.230.192.51 assistant-s3-pa.googleapis.com
-  	45.155.204.190 bard.google.com
-  	37.230.192.51 bard.google.com
-  	45.155.204.190 daily-cloudcode-pa.googleapis.com
-  	37.230.192.51 daily-cloudcode-pa.googleapis.com
-  	45.155.204.190 deepmind.com
-  	37.230.192.51 deepmind.com
-  	45.155.204.190 deepmind.google
-  	37.230.192.51 deepmind.google
-  	45.155.204.190 developerprofiles-pa.googleapis.com
-  	37.230.192.51 developerprofiles-pa.googleapis.com
-  	45.155.204.190 geller-pa.googleapis.com
-  	37.230.192.51 geller-pa.googleapis.com
-  	45.155.204.190 gemini.google
-  	37.230.192.51 gemini.google
-  	45.155.204.190 gemini.google.com
-  	37.230.192.51 gemini.google.com
-  	45.155.204.190 generativeai.google
-  	37.230.192.51 generativeai.google
-  	45.155.204.190 generativelanguage.googleapis.com
-  	37.230.192.51 generativelanguage.googleapis.com
-  	45.155.204.190 jules.google
-  	37.230.192.51 jules.google
-  	45.155.204.190 jules.google.com
-  	37.230.192.51 jules.google.com
-  	45.155.204.190 labs.google
-  	37.230.192.51 labs.google
-  	45.155.204.190 labs.google.com
-  	37.230.192.51 labs.google.com
-  	45.155.204.190 lookerstudio.google.com
-  	37.230.192.51 lookerstudio.google.com
-  	45.155.204.190 makersuite.google.com
-  	37.230.192.51 makersuite.google.com
-  	45.155.204.190 notebooklm.google
-  	37.230.192.51 notebooklm.google
-  	45.155.204.190 notebooklm.google.com
-  	37.230.192.51 notebooklm.google.com
-  	45.155.204.190 notebooklm-pa.googleapis.com
-  	37.230.192.51 notebooklm-pa.googleapis.com
-  	45.155.204.190 o.pki.goog
-  	37.230.192.51 o.pki.goog
-  	45.155.204.190 opal.google
-  	37.230.192.51 opal.google
-  	45.155.204.190 opal.google.com
-  	37.230.192.51 opal.google.com
-  	45.155.204.190 opal.withgoogle.com
-  	37.230.192.51 opal.withgoogle.com
-  	45.155.204.190 people-pa.clients6.google.com
-  	37.230.192.51 people-pa.clients6.google.com
-  	45.155.204.190 proactivebackend-pa.googleapis.com
-  	37.230.192.51 proactivebackend-pa.googleapis.com
-  	45.155.204.190 robinfrontend-pa.googleapis.com
-  	37.230.192.51 robinfrontend-pa.googleapis.com
-  	45.155.204.190 signaler-pa.clients6.google.com
-  	37.230.192.51 signaler-pa.clients6.google.com
-  	45.155.204.190 stitch.withgoogle.com
-  	37.230.192.51 stitch.withgoogle.com
-  	45.155.204.190 suggestqueries.google.com
-  	37.230.192.51 suggestqueries.google.com
-  	45.155.204.190 waa-pa.clients6.google.com
-  	37.230.192.51 waa-pa.clients6.google.com
-  	45.155.204.190 webchannel-alkalimakersuite-pa.clients6.google.com
-  	37.230.192.51 webchannel-alkalimakersuite-pa.clients6.google.com
-  	
+  	  	
   	# Grok
   	45.155.204.190 accounts.x.ai
   	37.230.192.51 accounts.x.ai
@@ -458,95 +373,6 @@
   	45.155.204.190 api.imgur.com
   	37.230.192.51 api.imgur.com
   	
-  	# Spotify
-  	45.155.204.190 accounts.scdn.co
-  	37.230.192.51 accounts.scdn.co
-  	45.155.204.190 accounts.spotify.com
-  	37.230.192.51 accounts.spotify.com
-  	45.155.204.190 aet.spotify.com
-  	37.230.192.51 aet.spotify.com
-  	45.155.204.190 ap-gew1.spotify.com
-  	37.230.192.51 ap-gew1.spotify.com
-  	45.155.204.190 ap-gue1.spotify.com
-  	37.230.192.51 ap-gue1.spotify.com
-  	45.155.204.190 ap-gae2.spotify.com
-  	37.230.192.51 ap-gae2.spotify.com
-  	45.155.204.190 ap-guc3.spotify.com
-  	37.230.192.51 ap-guc3.spotify.com
-  	45.155.204.190 ap-gew4.spotify.com
-  	37.230.192.51 ap-gew4.spotify.com
-  	45.155.204.190 api-partner.spotify.com
-  	37.230.192.51 api-partner.spotify.com
-  	45.155.204.190 api.spotify.com
-  	37.230.192.51 api.spotify.com
-  	45.155.204.190 audio-fa-tls13.spotifycdn.com
-  	37.230.192.51 audio-fa-tls13.spotifycdn.com
-  	45.155.204.190 audio-fa.scdn.co
-  	37.230.192.51 audio-fa.scdn.co
-  	45.155.204.190 canvaz.scdn.co
-  	37.230.192.51 canvaz.scdn.co
-  	45.155.204.190 charts-images.scdn.co
-  	37.230.192.51 charts-images.scdn.co
-  	45.155.204.190 concerts.spotifycdn.com
-  	37.230.192.51 concerts.spotifycdn.com
-  	45.155.204.190 encore.scdn.co
-  	37.230.192.51 encore.scdn.co
-  	45.155.204.190 gew1-dealer.spotify.com
-  	37.230.192.51 gew1-dealer.spotify.com
-  	45.155.204.190 gew1-spclient.spotify.com
-  	37.230.192.51 gew1-spclient.spotify.com
-  	45.155.204.190 heads-fa-tls13.spotifycdn.com
-  	37.230.192.51 heads-fa-tls13.spotifycdn.com
-  	45.155.204.190 i-lo.scdn.co
-  	37.230.192.51 i-lo.scdn.co
-  	45.155.204.190 i.scdn.co
-  	37.230.192.51 i.scdn.co
-  	45.155.204.190 image-cdn-fa.spotifycdn.com
-  	37.230.192.51 image-cdn-fa.spotifycdn.com
-  	45.155.204.190 login5.spotify.com
-  	37.230.192.51 login5.spotify.com
-  	45.155.204.190 mrkt.spotifycdn.com
-  	37.230.192.51 mrkt.spotifycdn.com
-  	45.155.204.190 open-exp.spotifycdn.com
-  	37.230.192.51 open-exp.spotifycdn.com
-  	45.155.204.190 open.spotify.com
-  	37.230.192.51 open.spotify.com
-  	45.155.204.190 pickasso.spotifycdn.com
-  	37.230.192.51 pickasso.spotifycdn.com
-  	45.155.204.190 podz-content.spotifycdn.com
-  	37.230.192.51 podz-content.spotifycdn.com
-  	45.155.204.190 seed-mix-image.spotifycdn.com
-  	37.230.192.51 seed-mix-image.spotifycdn.com
-  	45.155.204.190 seektables.scdn.co
-  	37.230.192.51 seektables.scdn.co
-  	45.155.204.190 spclient.wg.spotify.com
-  	37.230.192.51 spclient.wg.spotify.com
-  	45.155.204.190 spotifycdn.com
-  	37.230.192.51 spotifycdn.com
-  	45.155.204.190 spotifycdn.net
-  	37.230.192.51 spotifycdn.net
-  	45.155.204.190 t.scdn.co
-  	37.230.192.51 t.scdn.co
-  	45.155.204.190 thisis-images.spotifycdn.com
-  	37.230.192.51 thisis-images.spotifycdn.com
-  	45.155.204.190 wap.spotifycdn.com
-  	37.230.192.51 wap.spotifycdn.com
-  	45.155.204.190 web-sdk-assets.spotifycdn.com
-  	37.230.192.51 web-sdk-assets.spotifycdn.com
-  	45.155.204.190 www-growth.scdn.co
-  	37.230.192.51 www-growth.scdn.co
-  	45.155.204.190 www.spotify.com
-  	37.230.192.51 www.spotify.com
-  	45.155.204.190 widget-content.spotify.com
-  	37.230.192.51 widget-content.spotify.com
-  	45.155.204.190 edge-web.dual-gslb.spotify.com
-  	37.230.192.51 edge-web.dual-gslb.spotify.com
-  	45.155.204.190 apresolve.spotify.com
-  	37.230.192.51 apresolve.spotify.com
-  	45.155.204.190 edge-web-gew1.dual-gslb.spotify.com
-  	37.230.192.51 edge-web-gew1.dual-gslb.spotify.com
-  	45.155.204.190 edge-web-gue1.dual-gslb.spotify.com
-  	37.230.192.51 edge-web-gue1.dual-gslb.spotify.com
   	### dns.geohide.ru: end hosts file
   '';
   	
@@ -585,6 +411,7 @@
 
   environment.systemPackages = with pkgs; [
 	home-manager
+	dnsutils
 	wget
 	neovim
 	vimPlugins.LazyVim
@@ -615,6 +442,9 @@
 	grub2_efi
 	android-tools
 	wayland-utils
+	power-profiles-daemon
+	ffmpeg
+	amberol
   ];
 
   fonts.packages = with pkgs; [
@@ -632,6 +462,7 @@
   systemd.tmpfiles.rules = [ "L+ /var/lib/dbus/machine-id - - - - /etc/machine-id" ];
   services.happ.enable = true;
   services.happ.forceXwayland = true;
+  services.power-profiles-daemon.enable = true;
   services.openssh.enable = true;
   services.displayManager.gdm.enable = true;
   programs.niri.enable = true;
@@ -641,6 +472,10 @@
   programs.xwayland.enable = true;
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
+  hardware.graphics = {
+  	enable = true;
+  	enable32Bit = true;
+  };
   services.upower.enable = true;
   security.polkit.enable = true;
   services.dbus.enable = true;
@@ -659,7 +494,11 @@
   	];
   	config.common.default = "*";
   };
-  
+  programs.steam = {
+  	enable = true;
+  	dedicatedServer.openFirewall = true;
+  	remotePlay.openFirewall = true;
+  };
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It‘s perfectly fine and recommended to leave

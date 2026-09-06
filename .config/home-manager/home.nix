@@ -36,19 +36,24 @@
     };
 
     packages = with pkgs; [
+      firefox
       spotify
+      spotifyd
       kitty
       telegram-desktop
-      firefox
       thunar
+      nautilus
       xarchiver
       scrcpy
       libsForQt5.qt5ct
       kdePackages.qt6ct
       prismlauncher
       snapshot
-      steam
       blanket
+      discord-rpc
+      adwsteamgtk
+      libreoffice
+      hyfetch
     ];
   };
 

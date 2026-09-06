@@ -12,7 +12,7 @@
 
 		shellAliases = {
 			ls = "lsd";
-			rebuild = "sudo zapret-service stop && sudo nixos-rebuild switch --flake /etc/nixos && sudo zapret-service start";
+			rebuild = "sudo zapret-service stop && sudo nixos-rebuild switch --flake /etc/nixos";
 			update = "sudo zapret-service stop && home-manager switch --flake ~/.config/home-manager && sudo zapret-service start";
 			cleanup = "home-manager expire-generations '-0 days' && sudo nix-collect-garbage -d";
 			upload = "bash /home/glg/system-config/upload.sh";

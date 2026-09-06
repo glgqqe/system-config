@@ -6,6 +6,7 @@
     settings = {
       spawn-at-startup = [
         { command = [ "noctalia" ]; }
+        { command = [ "spotifyd --initial-volume 50" ]; }
       ];
 	  prefer-no-csd = true;
 	  xwayland-satellite.enable = true; 
@@ -20,8 +21,8 @@
 	  		accel-speed = -0.4;
 	  	};
 	  	touchpad = {
-	  		enable = true;
 	  		scroll-method = "two-finger";
+	  		enable = true;
 	  		scroll-factor = 1.0;
 	  	};
 	  };
@@ -33,12 +34,13 @@
           repeat = false;
         };
         "Mod+Return".action.spawn = "kitty";
+        "Mod+T".action.spawn = "kitty";
         "Mod+Space" = {
           action.spawn-sh = "noctalia msg panel-toggle launcher";
           repeat = false;
         };
         "Mod+W".action.spawn = "firefox";
-        "Mod+E".action.spawn = "thunar";
+        "Mod+E".action.spawn = "nautilus";
         "Mod+X".action.spawn = "Telegram";
         "Mod+D".action.spawn = "discord";
         "Mod+Tab" = {
@@ -55,7 +57,7 @@
         	action.spawn-sh = "noctalia msg panel-toggle clipboard";
         	repeat = false;
         };
-        "Mod+M".action.spawn-sh = "noctalia msg settings-open";
+        "Mod+N".action.spawn-sh = "noctalia msg settings-open";
         "XF86Display" = {
         	action.power-off-monitors = [ ];
         	repeat = false;	
@@ -66,6 +68,9 @@
 		"XF86MonBrightnessDown".action.spawn-sh = "noctalia msg brightness-down all";
 		"XF86MonBrightnessUp".action.spawn-sh = "noctalia msg brightness-up all";
 		"XF86AudioMicMute".action.spawn-sh = "noctalia msg mic-mute";
+		"XF86Search".action.spawn-sh = "noctalia msg media toggle";
+		"XF86LaunchA".action.spawn-sh = "noctalia msg media previous";
+		"XF86Explorer".action.spawn-sh = "noctalia msg media next";
 		"Mod+Alt+L".action.spawn-sh = "noctalia msg session lock";
 		"Ctrl+Alt+Delete".action.spawn-sh = "noctalia msg panel-toggle session";
 			
@@ -176,8 +181,22 @@
         		{ app-id = "org.prismlauncher.PrismLauncher"; }
         	];
         	open-floating = true;
-        	default-column-width.fixed = 812;
-        	default-window-height.fixed = 608;
+        	default-column-width.fixed = 954;
+        	default-window-height.fixed = 692;
+        }
+        {
+        	matches = [
+        		{ title = "Подождите… — Prism Launcher 11.0.3"; }
+        	];
+        	open-floating = true;
+        	default-column-width.fixed = 480;
+        	default-window-height.fixed = 226;
+        }
+        {
+        	matches = [
+        		{ app-id = "libreoffice-writer"; }
+        	];
+        	open-maximized = true;
         }
       ];
 
