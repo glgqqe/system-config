@@ -12,8 +12,8 @@
 
 		shellAliases = {
 			ls = "lsd";
-			rebuild = "sudo zapret-service stop && sudo nixos-rebuild switch --flake /etc/nixos";
-			update = "sudo zapret-service stop && home-manager switch --flake ~/.config/home-manager && sudo zapret-service start";
+			rebuild = "sudo zapret-service stop && sudo nix flake update --flake /etc/nixos && sudo git -C /etc/nixos add /etc/nixos/flake.lock && sudo nixos-rebuild switch --flake /etc/nixos#thinkpad && sudo zapret-service start";
+			update = "sudo zapret-service stop && nix flake update --flake ~/.config/home-manager/ && git -C ~/.config/home-manager/ add ~/.config/home-manager/flake.lock && home-manager switch --flake ~/.config/home-manager/#glg && sudo zapret-service start";
 			cleanup = "home-manager expire-generations '-0 days' && sudo nix-collect-garbage -d";
 			upload = "bash /home/glg/system-config/upload.sh";
 			glg = "ssh root@31.76.245.159";

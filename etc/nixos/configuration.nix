@@ -12,7 +12,7 @@
   	kernelPackages = pkgs.linuxPackages_zen;
   	loader = {
   		efi.canTouchEfiVariables = true;
-  		timeout = 0;
+  		timeout = 1;
   		grub = {
   			enable = true;
   			device = "nodev";
@@ -445,6 +445,7 @@
 	power-profiles-daemon
 	ffmpeg
 	amberol
+	waypipe
   ];
 
   fonts.packages = with pkgs; [
@@ -492,7 +493,7 @@
   		xdg-desktop-portal-gnome
   		xdg-desktop-portal-gtk
   	];
-  	config.common.default = "*";
+  	config.common.default = "gtk";
   };
   programs.steam = {
   	enable = true;

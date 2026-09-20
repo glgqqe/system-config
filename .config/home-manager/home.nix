@@ -41,7 +41,6 @@
       spotifyd
       kitty
       telegram-desktop
-      thunar
       nautilus
       xarchiver
       scrcpy
@@ -53,7 +52,7 @@
       discord-rpc
       adwsteamgtk
       libreoffice
-      hyfetch
+      nocturne
     ];
   };
 
@@ -61,6 +60,15 @@
   	enable = true;
   	package = pkgs.discord.override {
   		withVencord = true;
+  	};
+  };
+  services.spotifyd = {
+  	enable = true;
+  	settings = {
+  		global = {
+  			use_mpris = true;
+  			initial_volume = 50;
+  		};
   	};
   };
 }

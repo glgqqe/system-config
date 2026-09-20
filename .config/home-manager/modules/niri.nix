@@ -6,8 +6,9 @@
     settings = {
       spawn-at-startup = [
         { command = [ "noctalia" ]; }
-        { command = [ "spotifyd --initial-volume 50" ]; }
+        { command = [ "systemctl" "--user" "start" "spotifyd" ]; }
       ];
+      hotkey-overlay.skip-at-startup = true;
 	  prefer-no-csd = true;
 	  xwayland-satellite.enable = true; 
 	  xwayland-satellite.path = "/run/current-system/sw/bin/xwayland-satellite";
@@ -195,6 +196,12 @@
         {
         	matches = [
         		{ app-id = "libreoffice-writer"; }
+        	];
+        	open-maximized = true;
+        }
+        {
+        	matches = [
+        		{ app-id = "org.prismlauncher.PrismLauncher"; }
         	];
         	open-maximized = true;
         }
