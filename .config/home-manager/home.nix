@@ -13,6 +13,7 @@
     ./modules/zsh/zsh.nix
     ./modules/kitty.nix
     ./modules/fastfetch.nix
+    ./modules/vim.nix
   ];
 
   xdg.configFile."noctalia/settings.toml".text = ''
@@ -35,6 +36,11 @@
     	x11.enable = true;
     };
 
+    sessionVariables = {
+      LANG = "en_US.UTF-8";
+      LC_TIME = "en_GB.UTF-8";
+    };
+
     packages = with pkgs; [
       firefox
       spotify
@@ -53,6 +59,11 @@
       adwsteamgtk
       libreoffice
       nocturne
+      obs-studio
+      opencode
+      ansible
+      musescore
+      qbittorrent
     ];
   };
 
@@ -71,4 +82,5 @@
   		};
   	};
   };
+
 }

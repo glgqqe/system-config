@@ -413,7 +413,7 @@
 	home-manager
 	dnsutils
 	wget
-	neovim
+	vim
 	vimPlugins.LazyVim
 	micro
 	yazi
@@ -445,7 +445,8 @@
 	power-profiles-daemon
 	ffmpeg
 	amberol
-	waypipe
+  waypipe
+  mpv
   ];
 
   fonts.packages = with pkgs; [
@@ -483,9 +484,9 @@
   security.rtkit.enable = true;
   services.xserver.enable = true;
   services.pipewire = {
-  	enable = true;
-  	alsa.enable = true;
-  	pulse.enable = true;
+    enable = true;
+    alsa.enable = true;
+    pulse.enable = true;
   };
   xdg.portal = {
   	enable = true;
@@ -493,13 +494,14 @@
   		xdg-desktop-portal-gnome
   		xdg-desktop-portal-gtk
   	];
-  	config.common.default = "gtk";
+  	config.common.default = [ "gtk" "gnome" ];
   };
   programs.steam = {
   	enable = true;
   	dedicatedServer.openFirewall = true;
   	remotePlay.openFirewall = true;
   };
+
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It‘s perfectly fine and recommended to leave

@@ -205,6 +205,12 @@
         	];
         	open-maximized = true;
         }
+        {
+          matches = [
+            { app-id = "MuseScore4"; }
+          ];
+          open-maximized = true;
+        }
       ];
 
       layer-rules = [
